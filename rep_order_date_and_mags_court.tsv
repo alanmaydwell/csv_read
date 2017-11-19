@@ -1,0 +1,19 @@
+# CCR TSV TEST DATA	
+# Rep Order Date and Magistrates Court for CCR claim	
+# Intended to be read using ????.py 
+#	
+# GENERAL INFO
+# When read using ????.py
+# - Blank rows or rows starting with # are skipped	
+# - First unskipped row is read as headings (dictionary keys)
+# - If headings not yet read, lines containing only spaces will also be skipped 
+#   (safety measure as difficult to distinguish by eye from blank row)
+# - Subsequent unskipped rows are read as data (dictionary values).
+# - Lines with just spaces are still read as data (unlike headings).	
+# - Headings with no data at all are ignored (but only a single value in any row is sufficient for inclusion)
+# - Data with no heading are also ignored (i.e. maximum number of items per row is set by the number of headings in the headings row).
+
+reporder_date	mags_court
+01/01/2017	Barking (2)
+01/02/2017	Barking (2)
+01/03/2017	Barking (2)

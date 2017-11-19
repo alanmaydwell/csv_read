@@ -1,3 +1,8 @@
+# Test Data 
+# Blank rows or rows starting with # are skipped
+# First unskipped row is read as headings (dictionary keys)
+# Subsequent unskipped rows are read as data (dictionary values)
+
 A,B,C
 1,2,3
 4,5,6
