@@ -6,7 +6,7 @@ data from csv file and recording it in a list
 of dictionaries.
 
 ## csv_read_example.py
-Simple example of suing data_support.py module.
+Simple example of using data_support.py module.
 
 ## rep_order_date_and_mags_court.tsv
-Tab-separated variable file used in above example.
+Tab-separated variable data used in above example.
